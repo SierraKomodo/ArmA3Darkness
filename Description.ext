@@ -1,0 +1,28 @@
+// THIS IS NOT A COMPLETE DESCRIPTION.EXT
+// The following should be added to your mission's existing description.ext
+// Be sure to merge sections together if you already have CfgFunctions, or SK present in the file
+
+
+class CfgFunctions
+{
+	class mission
+	{
+		class addActions
+		{
+			class addActions {file = "addActions.sqf";};
+		}
+	}
+
+	class SK
+	{
+		// Darkness
+		class DarknessStart
+		{
+			class DarknessStart {file = "SierraKomodo\darkness\sk_darkness_start.sqf"}
+		}
+		class DarknessStop
+		{
+			class DarknessStop {file = "SierraKomodo\darkness\sk_darkness_stop.sqf"}
+		}
+	}
+}
